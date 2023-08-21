@@ -1,0 +1,44 @@
+body {
+    background: rgb(215, 209, 205);
+
+}
+
+.wrapper {
+
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+button {
+
+    width: 180px;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    background: rgb(6, 143, 240);
+
+}
+
+button:hover {
+    background-color: green;
+}
+
+#text {
+    display: inline-block;
+    width: 190px;
+    padding: 5px;
+    background-color: rgb(235, 242, 235);
+
+}
+
+.title {
+    
+    display: none;
+    margin: auto;
+}

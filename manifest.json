@@ -1,0 +1,24 @@
+{
+    "name": "Title picker",
+    "description": "A title of the current tab will be picked",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "permissions":[
+        "activeTab",
+        "tabs"
+    ],
+
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons": {
+        "16": "images/16.png"
+        
+      }
+
+}
